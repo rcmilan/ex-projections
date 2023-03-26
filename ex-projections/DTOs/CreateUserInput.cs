@@ -1,4 +1,6 @@
-﻿namespace ex_projections.DTOs
+﻿using ex_projections.Entities.ValueObjects;
+
+namespace ex_projections.DTOs
 {
-    public record CreateUserInput(string Name);
+    public record CreateUserInput(string Name, Address Address);
 }

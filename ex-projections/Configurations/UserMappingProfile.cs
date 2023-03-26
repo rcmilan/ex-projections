@@ -11,6 +11,8 @@ namespace ex_projections.Configurations
             CreateMap<CreateUserInput, User>();
 
             CreateMap<User, CreateUserOutput>();
+
+            CreateMap<User, UserDto>();
         }
     }
 }
