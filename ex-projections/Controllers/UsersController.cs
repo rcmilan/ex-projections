@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using AutoMapper.QueryableExtensions;
 using ex_projections.Configurations;
 using ex_projections.DTOs;
 using ex_projections.Entities;
